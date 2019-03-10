@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Boletin16UML">
+  <ClassDiagramComponents>
+    <Class name="Persoa" package="" visibility="public" xPosition="38.0" yPosition="280.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Galo" package="" visibility="public" xPosition="270.0" yPosition="313.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Canario" package="" visibility="public" xPosition="493.0" yPosition="333.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Tenor" package="" visibility="public" xPosition="38.0" yPosition="447.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Interface name="IPodeCantar" package="" visibility="public" xPosition="258.0" yPosition="103.0">
+      <Methods>
+        <Method name="cantar" returnType="void" visibility="public"/>
+      </Methods>
+    </Interface>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <IsRelation name="is" source="Tenor" target="Persoa"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="Canario" target="IPodeCantar"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="Galo" target="IPodeCantar"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="Persoa" target="IPodeCantar"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
